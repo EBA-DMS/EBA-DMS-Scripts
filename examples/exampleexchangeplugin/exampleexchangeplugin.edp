@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project version="2.0" name="exampleexchangeplugin" project_version="1.0" caption="Example Exchange Plugin" encrypted="false" project_type="ExchangePlugin">
+	<Mains>
+		<Main load_flag="1">main()</Main>
+		<Main load_flag="2">serverMain()</Main>
+	</Mains>
+	<Files>
+		<File path="preprocess.js" type="code" preprocess="true"/>
+		<File path="main.js" type="code"/>
+		<File path="send.js" type="code"/>
+		<File path="receive.js" type="code"/>
+		<File path="fakews.js" load_flag="65535" type="code"/>
+	</Files>
+</Project>
